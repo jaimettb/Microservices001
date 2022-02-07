@@ -1,5 +1,5 @@
 namespace PlatformService.Dtos{
-    public class PlatformReadDTO{
+    public class PlatformReadDto{
 
         public int Id { get; set; }
         
