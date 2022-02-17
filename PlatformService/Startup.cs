@@ -35,7 +35,7 @@ namespace PlatformService
             if(_env.IsProduction()){
                 Console.WriteLine("--> Using SqlServer Db");
                 services.AddDbContext<AppDbContext>(opt =>
-                opt.UseSqlServer(Configuration.GetConnectionString("ConnectionStrings")));
+                opt.UseSqlServer(Configuration.GetConnectionString("PlatformsConn")));
             }
             else{
                 Console.WriteLine("--> Using InMem Db");
@@ -77,7 +77,7 @@ namespace PlatformService
                 endpoints.MapControllers();
             });
 
-            PrepDb.PrePopulation(app);
+            PrepDb.PrePopulation(app, env.IsProduction());
         }
     }
 }
