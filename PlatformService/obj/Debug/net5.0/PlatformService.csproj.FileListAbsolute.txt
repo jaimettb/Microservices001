@@ -66,3 +66,4 @@ C:\Projects\Learning\Microservices001\PlatformService\obj\Debug\net5.0\PlatformS
 C:\Projects\Learning\Microservices001\PlatformService\obj\Debug\net5.0\ref\PlatformService.dll
 C:\Projects\Learning\Microservices001\PlatformService\obj\Debug\net5.0\PlatformService.pdb
 C:\Projects\Learning\Microservices001\PlatformService\obj\Debug\net5.0\PlatformService.genruntimeconfig.cache
+C:\Projects\Learning\Microservices001\PlatformService\bin\Debug\net5.0\appsettings.Production.json
