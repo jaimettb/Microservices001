@@ -15,6 +15,7 @@ using Microsoft.OpenApi.Models;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
 using PlatformService.SystemDataServices.Http;
+using PlatformServices.AsyncDataServices;
 
 namespace PlatformService
 {
@@ -46,6 +47,7 @@ namespace PlatformService
             services.AddScoped<IPlatformRepo, PlatFormRepo>();
 
             services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
+            services.AddSingleton<IMessageBusClient, MessageBusClient>();
 
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
