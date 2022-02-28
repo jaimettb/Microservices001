@@ -7,7 +7,6 @@ using PlatformService.Data;
 using PlatformService.Dtos;
 using PlatformService.Models;
 using PlatformService.SyncDataServices.Http;
-using PlatformService.Dtos;
 using PlatformServices.AsyncDataServices;
 
 namespace PlatformService.Controllers{

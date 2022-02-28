@@ -41,3 +41,5 @@ C:\Projects\Learning\Microservices001\CommandService\obj\Debug\net5.0\CommandSer
 C:\Projects\Learning\Microservices001\CommandService\obj\Debug\net5.0\ref\CommandService.dll
 C:\Projects\Learning\Microservices001\CommandService\obj\Debug\net5.0\CommandService.pdb
 C:\Projects\Learning\Microservices001\CommandService\obj\Debug\net5.0\CommandService.genruntimeconfig.cache
+C:\Projects\Learning\Microservices001\CommandService\bin\Debug\net5.0\appsettings.Production.json
+C:\Projects\Learning\Microservices001\CommandService\bin\Debug\net5.0\RabbitMQ.Client.dll
