@@ -80,5 +80,6 @@ namespace PlatformService.Controllers{
 
             return CreatedAtRoute(nameof(GetPlatformById), new {Id = platformReadDto.Id}, platformCreateDto);
         }
+        
     }
 }
