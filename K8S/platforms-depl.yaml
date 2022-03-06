@@ -32,4 +32,4 @@ spec:
   - name: platformgrpc
     protocol: TCP
     port: 666
-    targetPort: 66
+    targetPort: 666
